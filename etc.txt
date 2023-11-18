@@ -10,5 +10,8 @@ $ git push origin --delete TestSuitJunit4
 Discard changes
 $ git checkout -- filepath
 
+Visualize git history in terminal
+$ git log --oneline --abbrev-commit --all --graph --decorate --color  // create an alias in '~/.gitconfig'
+
 Merge 2 or more git repos together :
 https://medium.com/altcampus/how-to-merge-two-or-multiple-git-repositories-into-one-9f8a5209913f
